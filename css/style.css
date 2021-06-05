@@ -8,9 +8,18 @@ h1{
   font-style: strong;
 }
 
-h2{
+#div-promos{
   color: #F0C600;
   background-color: #5D737E;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: strong;
+  align-items: center;
+}
+
+h3{
+  color: #4B66A4;
+  background-color: #F0F7EE ;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-style: strong;
@@ -23,7 +32,7 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  body{
+body{
     background-image: url("https://panamajackresorts.com/storage/media/czmpc-panama-jack-resorts-playa-del-carmen-drone-2.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -33,7 +42,7 @@ h2{
     color: #02223C;
   }
   
-  .flip-card{
+.flip-card{
     font-size: small;
     width: 200px;
     height: 200px;
@@ -41,7 +50,7 @@ h2{
     perspective: 1000px;
   }
   
-  .flip-card-inner{
+.flip-card-inner{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     width: 100%;
@@ -51,11 +60,11 @@ h2{
     transform-style: preserve-3d;
   }
   
-  .flip-card:hover .flip-card-inner{
+.flip-card:hover .flip-card-inner{
     transform: rotateY(180deg);
   }
         
-  .flip-card-back, .flip-card-front{
+.flip-card-back, .flip-card-front{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -63,20 +72,20 @@ h2{
     backface-visibility: hidden;
   }
   
-  .flip-card-front{
+.flip-card-front{
     background-color: #F0F7EE;
     /*background-color: linear-gradient(to bottom,#F0F7EE,#5D737E);*/
     color: #4B66A4;
   }
   
-  .flip-card-back{
+.flip-card-back{
     background-color: #5D737E;
     color: #F0C600;
     transform: rotateY(180deg);
   }
 
 .form-custom{
-    color: #F0F7EE;
+    color: #F0C600;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-style: strong;
