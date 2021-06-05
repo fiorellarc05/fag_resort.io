@@ -8,13 +8,12 @@ h1{
   font-style: strong;
 }
 
-#div-promos{
+h2{
   color: #F0C600;
   background-color: #5D737E;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-style: strong;
-  align-items: center;
 }
 
 h3{
@@ -85,8 +84,10 @@ body{
   }
 
 .form-custom{
-    color: #F0C600;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-style: strong;
+  background-color: #F0F7EE;
+  border-color: #4B66A4;
+  color: #F0C600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: strong;
 }  
