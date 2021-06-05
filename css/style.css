@@ -74,3 +74,10 @@ h2{
     color: #F0C600;
     transform: rotateY(180deg);
   }
+
+.form-custom{
+    color: #F0F7EE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: strong;
+}  

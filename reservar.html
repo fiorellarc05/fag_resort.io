@@ -13,7 +13,30 @@
     </head>
 
     <body>
-        <form class="align-items-center">
+        <header class="header-custom"> 
+            <!--Navbar menu-->
+            <nav class="navbar navbar-expand-lg navbar-light container">
+                <!--Logo icon-->
+                <a class="navbar-brand" href="index.php">
+                    <img src="img/logo.png" width="120" height="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="promos.html">Promociones<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservar.html">Reservar<span class="sr-only"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>            
+        </header>   
+
+        <form class="form-custom">
             <div class="row">
                 <label for="formGroupExampleInput" class="form-label">Nombre completo</label>
                 <div class="col">
@@ -27,7 +50,7 @@
             <div>
                 <label for="formGroupExampleInput" class="form-label">Selecciona el hotel</label>
                 <select class="form-select" aria-label="Default select example">
-                    <option selected>Selecciona donde pasar tu estadía</option>
+                    <option selected disabled>Selecciona donde pasar tu estadía</option>
                     <option value="1">Playa Uvita</option>
                     <option value="2">Playa Hermosa</option>
                     <option value="3">Puerto Viejo</option>
@@ -61,7 +84,6 @@
             </div>
             <br>
             <div class="form-floating">
-                <label for="formGroupExampleInput" class="form-label">Decinos algún comentario a tomar en cuenta para tu reserva</label>
                 <textarea class="form-control" id="floatingTextarea"></textarea>
                 <label for="floatingTextarea">Comentarios</label>
             </div>
