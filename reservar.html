@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FAG Resort Promociones</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <!--ccs style-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <form class="align-items-center">
+            <div class="row">
+                <label for="formGroupExampleInput" class="form-label">Nombre completo</label>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellidos" aria-label="Apellidos">
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="formGroupExampleInput" class="form-label">Selecciona el hotel</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecciona donde pasar tu estadía</option>
+                    <option value="1">Playa Uvita</option>
+                    <option value="2">Playa Hermosa</option>
+                    <option value="3">Puerto Viejo</option>
+                </select>
+            </div>
+            <br>
+            <div class="row">
+                <label for="formGroupExampleInput" class="form-label">Selecciona tu día de entrada</label>
+                <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Dia" aria-label="Dia">
+                </div>
+                <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Mes" aria-label="Mes">
+                </div>
+                <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Año" aria-label="Año">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <label for="formGroupExampleInput" class="form-label">Selecciona tu día de salida</label>
+                <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Dia" aria-label="Dia">
+                </div>
+                <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Mes" aria-label="Mes">
+                </div>
+                <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Año" aria-label="Año">
+                </div>
+            </div>
+            <br>
+            <div class="form-floating">
+                <label for="formGroupExampleInput" class="form-label">Decinos algún comentario a tomar en cuenta para tu reserva</label>
+                <textarea class="form-control" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comentarios</label>
+            </div>
+            <br>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-warning">Reservar</button>
+            </div>
+        </form>    
+    </body>
+</html>    
