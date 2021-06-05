@@ -68,7 +68,7 @@ h1{
   }
   
 .body-custom{
-  background-image: src="img/promos.png";
+  background-image: "img/promos.png";
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
