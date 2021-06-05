@@ -8,12 +8,13 @@ h1{
   font-style: strong;
 }
 
-h2{
+#div-custom{
   color: #F0C600;
   background-color: #5D737E;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-style: strong;
+  align-items: center;
 }
 
 h3{
@@ -86,6 +87,7 @@ body{
 .form-custom{
   background-color: #F0F7EE;
   border-color: #4B66A4;
+  border-style: solid;
   color: #F0C600;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
